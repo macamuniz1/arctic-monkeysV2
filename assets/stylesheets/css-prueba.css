@@ -135,6 +135,9 @@ h2{
 .memberphoto{
   padding-left: 30px;
 }
+.member-space-box{
+  padding-bottom: 30px;
+}
 /* Tours Page */
 table{
 padding: 30px;
