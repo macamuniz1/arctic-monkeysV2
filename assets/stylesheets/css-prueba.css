@@ -22,7 +22,14 @@ h2{
   padding-left: 30px;
   padding-right: 30px;
 }
-
+h3{
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
 /* Main Bar Menu */
 .topnav {
     background-color: black;
@@ -204,4 +211,64 @@ td{
   padding-left: 30px;
   line-height: 35px;
   vertical-align: top;
+}
+
+/* Shop Page */
+
+.btn{
+background-color: hsl(0, 100%, 25%);
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: "Roboto";
+font-size: 16px;
+margin: 5px 3px;
+border-radius: 30px;
+}
+
+.btn:hover{
+  background-color: black;
+}
+.btn.active{
+  background-color: black;
+}
+#myBtnContainer{
+  width: 100%;
+  padding: 10px;
+}
+.price{
+  font-family: 'Roboto';
+  text-align: left;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.filterDiv{
+  width: 400px;
+  height: auto;
+  display: none;
+
+
+}
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container{
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  justify-content: center;
 }

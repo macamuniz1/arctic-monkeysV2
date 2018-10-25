@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shop</title>
+  <link rel="stylesheet" href="/assets/stylesheets/css-prueba.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Main Menu -->
+  <div class="topnav">
+    <a href="index.html">
+    <div class="menu-logo"></div>
+    </a>
+    <a href="aboutpage.html">
+      <div class="buttonactive"> About </div>
+    </a>
+    <a href="discographypage.html">
+      <div class="buttonactive">Discography</div>
+    </a>
+    <a href=" ">
+      <div class="buttonactive"> Media </div>
+    </a>
+    <a href="shoppage.html">
+      <div class="buttonactive"> Shop </div>
+    </a>
+    <a href="tourspage.html">
+      <div class="buttonactive"> Tours </div>
+    </a>
+  </div>
+
+    <!-- Banner -->
+    <div class="banner-about">
+      <div class="valign"></div>
+      <div class="banner-text">
+        Shop
+      </div>
+    </div>
+
+    <!-- Products lightbox -->
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('top')"> Topwear</button>
+    <button class="btn" onclick="filterSelection('bottom')"> Bottomwear </button>
+    <button class="btn" onclick="filterSelection('head')"> Headwear </button>
+    <button class="btn" onclick="filterSelection('acces')"> Accesories </button>
+  </div>
+
+  <div class="container">
+    <div class="filterDiv top">
+      <img src="assets/images/filter/shirt.jpg">
+      <h3> Black T-Shirt </h3>
+      <p class="price"> $14.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+    <div class="filterDiv top">
+      <img src="assets/images/filter/pullover.jpg">
+      <h3> Black Pullover </h3>
+      <p class="price"> $49.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+    <div class="filterDiv acces">
+      <img src="assets/images/filter/flag.jpg">
+      <h3> Classic Flag Monkeys </h3>
+      <p class="price"> $11.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+    <div class="filterDiv bottom">
+      <img src="assets/images/filter/socks.jpg">
+      <h3> Monkeys Socks </h3>
+      <p class="price"> $10.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+    <div class="filterDiv acces">
+      <img src="assets/images/filter/case.jpg">
+      <h3> Iphone 8 Case </h3>
+      <p class="price"> $29.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+    <div class="filterDiv head acces">
+      <img src="assets/images/filter/hat.jpg">
+      <h3> Classic Monkeys Hat </h3>
+      <p class="price"> $18.99 </p>
+      <button class="btn"> Buy Now </button>
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="assets/javascripts/java.js"></script>
+  </body>
+  </html>
